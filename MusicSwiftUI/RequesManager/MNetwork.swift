@@ -65,7 +65,7 @@ type: 地区类型 id,对应以下:
 
 //let playListApi = "top/playlist"  //歌单 ( 网友精选碟 )
 
-let musicPlayBaseUrl = "https://server.lintiebao.cn/"
+let musicPlayBaseUrl = "https://xxx.cn/"//更换服务器地址
 enum APIURL {
     static var disBaserURL = musicPlayBaseUrl
     static var devBaseURL = musicPlayBaseUrl
