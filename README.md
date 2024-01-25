@@ -3,8 +3,6 @@
 </p>
 <h1 align="center">Lennon</h1>
 
-📱 Free to use static generated landing page template for your mobile app
-
 ## Lennon
 Music App
 I built a music app using SwiftUI for the purpose of practicing SwiftUI
