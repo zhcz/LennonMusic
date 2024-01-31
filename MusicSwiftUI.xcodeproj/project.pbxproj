@@ -89,6 +89,8 @@
 		61AD06092B5FBDEF00D2D585 /* PlatformExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06022B5FBDEF00D2D585 /* PlatformExtensions.swift */; };
 		61AD060A2B5FBDEF00D2D585 /* ColorSpaceConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06032B5FBDEF00D2D585 /* ColorSpaceConversion.swift */; };
 		61AD060C2B60BBA700D2D585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61AD060B2B60BBA700D2D585 /* LaunchScreen.storyboard */; };
+		61AD06732B634F7B00D2D585 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06722B634F7B00D2D585 /* test.swift */; };
+		61AD06772B63A33000D2D585 /* PreferenceKeyExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61AD06762B63A33000D2D585 /* PreferenceKeyExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -166,6 +168,8 @@
 		61AD06022B5FBDEF00D2D585 /* PlatformExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformExtensions.swift; sourceTree = "<group>"; };
 		61AD06032B5FBDEF00D2D585 /* ColorSpaceConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSpaceConversion.swift; sourceTree = "<group>"; };
 		61AD060B2B60BBA700D2D585 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61AD06722B634F7B00D2D585 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		61AD06762B63A33000D2D585 /* PreferenceKeyExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,6 +306,8 @@
 				6123B9A32B47F5B7006B4F7E /* ZHPlayListItem.swift */,
 				611910602B4FE07600B5B48E /* SearchView.swift */,
 				61383B302B553730008D2CD7 /* SearchTopView.swift */,
+				61AD06722B634F7B00D2D585 /* test.swift */,
+				61AD06762B63A33000D2D585 /* PreferenceKeyExample.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -533,6 +539,7 @@
 				61383BB02B57B946008D2CD7 /* LrcLyricsParser.swift in Sources */,
 				61383B292B54C2EB008D2CD7 /* ActivityIndicator.swift in Sources */,
 				6123B9C42B4B8F26006B4F7E /* AngularButton.swift in Sources */,
+				61AD06732B634F7B00D2D585 /* test.swift in Sources */,
 				61383BC82B5A40EC008D2CD7 /* MinimizableView_Model.swift in Sources */,
 				6123B9AD2B47F6CA006B4F7E /* Modifiers.swift in Sources */,
 				6123B9FF2B4D3D2E006B4F7E /* NavigationBar.swift in Sources */,
@@ -594,6 +601,7 @@
 				61383B272B54C242008D2CD7 /* SimpleRefreshingView.swift in Sources */,
 				6123B9952B47EC27006B4F7E /* BaseModel.swift in Sources */,
 				61383BB12B57B946008D2CD7 /* TtmlLyricsParser.swift in Sources */,
+				61AD06772B63A33000D2D585 /* PreferenceKeyExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -74,6 +74,7 @@ struct ZHPlayDetailView: View {
             .background(
                 ColorfulView(color: $colors)
                     .ignoresSafeArea()
+                
             )
             .coordinateSpace(name: "scroll")
             .background(Color("Background"))
@@ -205,7 +206,7 @@ struct ZHPlayDetailView: View {
                                 .frame(maxWidth: .infinity,maxHeight: 150, alignment: .leading)
                                 .foregroundColor(.primary.opacity(0.7))
                             //                                .background(Color.red)
-                                .matchedGeometryEffect(id: "subtitle\(String(describing: playItem.index))", in: namespace)
+                                .matchedGeometryEffect(id: "description\(String(describing: playItem.index))", in: namespace)
                                 .onTapGesture {
                                     print("dianjile")
                                     
@@ -303,6 +304,7 @@ struct ZHPlayDetailView: View {
         .backgroundStyle(cornerRadius: 30)
         .padding(20)
         .padding(.vertical, 80)
+        
         //            .fullScreenCover(isPresented: $showSection) {
         //                    PlayerView2(viewModel: PlayerViewModel(model: selectedSection),playSongs:playSongs)
         //                    PlayerView(viewModel: PlayerViewModel(model: selectedSection),playSongs:playSongs)
